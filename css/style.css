@@ -5,6 +5,7 @@
     outline: none;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
+
 }
 
 a {
@@ -17,16 +18,13 @@ ol {
     list-style-type: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1,h2,h3,h4,h5,h6,p {
     margin: 0;
     padding: 0;
     line-height: 0.8;
+}
+body{
+     background: #1E1E1E ;
 }
 
 /* common css end  */
@@ -132,29 +130,34 @@ padding-bottom: 106px ;
 
 }
 .socialIcon a:hover{
-color: #FD6F00;
+background: #FD6F00;
 }
 
 
-.bannerbtn a {
+.bannerbtn a{
     padding: 12px 40px;
     background: #FD6F00;
     border-radius: 8px;
     color: #fff;
     margin-right: 24px;
-
+    transform: .4s;
+  
+}
+.bannerbtn a:hover{
+    color:#DFDFDF;
+    background: transparent;
+    border: 1px solid #FD6F00;
 
 }
-.bannerbtn a:{
-    color: #DFDFDF;
+.lowerpart{
+    margin-top: 80px;
+    margin-bottom: 256px;
+   margin-left: -10px;
 }
-
  .lowerpartContent{
-padding: 24px;
+padding:  15px 30px;
 background: rgb(36, 35, 35);
   display: flex;
-  justify-content: center;
-  align-items: center;
 border-radius: 8px;
 }
 .lowerpartContent .box{
@@ -188,3 +191,161 @@ font-size: 20px;
 
 }
 /* banner Part end */
+/* service part start */
+#servicePart {
+    margin:150px 0;
+}
+
+.serviceHead h2 {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 3%;
+    color: #FEFEFE;
+    padding-bottom: 18px;
+}
+
+.serviceHead p {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 3%;
+    line-height: 160%;
+    color: #707070;
+}
+
+.serviceHead {
+    padding-bottom: 80px;
+}
+
+.serviceCard {
+    padding: 34px 30px;
+   background: rgba(255, 255, 255, 0.04) ;
+   border-radius: 24px;
+   margin-bottom: 40px;
+   transition: .4s;
+
+}
+.serviceCard:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+     
+}
+  
+.serviceCard h3{
+    padding-top: 16px;
+    padding-bottom: 34px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 3%;
+    line-height: 160%;
+    color: #FD6F00;
+
+}
+.serviceCard p{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 3%;
+    line-height: 160%;
+    color: #575757;
+    width: 339px;
+}
+/* service part end */
+/* about part start */
+#aboutPart{
+    margin: 150px 0;
+}
+.aboutHead h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FEFEFE;
+    letter-spacing: 3%;
+    padding-bottom: 18px;
+}
+.aboutHead p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #707070;
+    letter-spacing: 3%;
+    line-height: 160%;
+ 
+}
+.aboutImg{
+    margin-top: 40px;
+}
+.aboutTxt{
+    margin-top: 123px;
+    width: 573px;
+    justify-content: center;
+    align-items: center;
+}
+.aboutTxt p{
+    font-weight: 600;
+    font-size: 20px;
+line-height: 190%;
+color: #959595;
+  font-family: "Lato", sans-serif;
+}
+.aboutTxt .bttn{
+    margin-top: 40px;
+    padding: 12px 30px;
+    border-radius: 8px;
+background : linear-gradient(
+  to right,
+  rgb(253, 111, 0) 0%,
+  rgb(228, 100, 0) 100%)
+
+}
+.aboutTxt .bttn a{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 3%;
+}
+.aboutTxt .bttn a i{
+    padding-right:5px ;
+}
+.aboutTxt .bttn:hover{
+ color:#DFDFDF;
+    background: transparent;
+    border: 1px solid #FD6F00;
+
+}
+.aboutImage{
+    margin-top: 100px;
+}
+/* about part end */
+/* protfolio part start */
+#protfolioPart{
+    margin-top:150px ;
+}
+.protfolioHead h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FEFEFE;
+    letter-spacing: 3%;
+}
+
+.protfolioBttn{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.protfolioBttn a{
+    margin-right: 24px;
+    padding: 14px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #C6C6C6;
+    border-radius: 8px;
+    transform: .4s;
+    background : linear-gradient(
+  to right,
+  rgb(253, 111, 0) 0%,
+  rgb(228, 100, 0) 100%)
+  
+}
+.protfolioBttn a:hover{
+    color:#DFDFDF;
+    background: transparent;
+    border: 1px solid #FD6F00;
+}
+/* protfolio part end */
+
