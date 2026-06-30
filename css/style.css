@@ -1,0 +1,190 @@
+/* common css start  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* common css end  */
+
+
+.nav-link {
+    margin: 0 20px;
+    color: #959595;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3%;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    color: #FD6F00;
+}
+
+.navbar {
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-link :hover {
+    color: #FD6F00;
+}
+
+.mybtn {
+    padding: 12px 40px;
+    border: none;
+    border-radius: 8px;
+    background: #FD6F00;
+    color: white;
+
+}
+
+
+/* banner Part Start */
+#bannerPart {
+    padding-top: 100px;
+
+    background: #1e1e1e;
+}
+.bannerContent{
+padding-top: 236px ;
+padding-bottom: 106px ;
+}
+
+.bannerContent h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 3%;
+    color: #707070;
+}
+
+.bannerContent h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 3%;
+    color: #959595;
+    padding-top: 10px;
+    padding-bottom: 24px;
+}
+
+.bannerContent h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    letter-spacing: 3%;
+    background: linear-gradient(90deg,
+            #984300 0%,
+            #FD6F00 46%,
+            #CA5900 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 17px;
+}
+.socialIcon{
+    display: flex;
+    /* margin: 0 20px; */
+    column-gap: 20px;
+    padding-bottom: 61px;
+}
+.socialIcon a{
+    border: 2px solid  #575757;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    opacity: 0.4;
+   color: #fff;
+   transform: .4s;
+
+}
+.socialIcon a:hover{
+color: #FD6F00;
+}
+
+
+.bannerbtn a {
+    padding: 12px 40px;
+    background: #FD6F00;
+    border-radius: 8px;
+    color: #fff;
+    margin-right: 24px;
+
+
+}
+.bannerbtn a:{
+    color: #DFDFDF;
+}
+
+ .lowerpartContent{
+padding: 24px;
+background: rgb(36, 35, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border-radius: 8px;
+}
+.lowerpartContent .box{
+font-weight: 700;
+font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 30px;
+margin-right: 35px;
+    border-right: 2px solid #959595;
+    color: #DFDFDF;
+ /* background: #ffffff/4; */
+ box-shadow: #959595;
+}
+.lowerpartContent .boxx{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 30px;
+   font-weight: 700;
+font-size: 20px;
+    padding-top: 6px;
+    color: #DFDFDF;
+}
+.lowerpartContent h2{
+    font-weight: 800;
+    font-size: 26px;
+    color: #FD6F00;
+    letter-spacing: 3%;
+    line-height: 100%;
+    padding-bottom: 5px;
+
+}
+/* banner Part end */
